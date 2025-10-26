@@ -14,19 +14,21 @@ You will need to run two separate processes in two different terminal windows: o
 ### 1. Running the Backend Server
 
 1.  **Navigate to the server directory:**
+
     ```bash
     cd server
     ```
 
 2.  **Install dependencies:**
     This project requires `express`, `cors`, `jsonwebtoken`, and `bcryptjs`. You would typically install these with npm or yarn. For this environment, the dependencies are pre-loaded.
+
     ```bash
     # For a local setup, you would run:
     # npm install express cors jsonwebtoken bcryptjs
     ```
 
 3.  **Start the server:**
-    The server will run on `http://localhost:5001`.
+    The server will run on 'https://heritage-mist-backend.onrender.com/api',
     ```bash
     node server.js
     ```
